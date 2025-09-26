@@ -12,3 +12,12 @@
 |Gốc|Đã làm|Cập nhật|
 |---|------|--------|
 | <img src="./img/Signup/Sign-upScreen.jpg" width="150"/> | <img src="./img/Signup/sp1.png" width="150"/> | <img src="./img/Signup/Ảnh chụp màn hình 2025-09-26 181123.png" width="150"/>|
+
+## 🟡 4. [About me](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/AboutMe)
+- Đây là bài tập thiết kế giao diện về giới thiệu bản thân theo mẫu [Figma](https://www.figma.com/design/C1QQx0QZnwo92jn8tlk49B/Untitled?node-id=0-1&p=f&t=n78BPuQvFeY7WUXO-0)
+- Giao diện gốc và giao diện đã làm:
+
+|Gốc|Đã làm|
+|---|------|
+| <img src="./img/aboutme/Frame 7.png" width="150"/> | <img src="./img/aboutme/Ảnh chụp màn hình 2025-09-26 200001.png" width="150"/> |
+
