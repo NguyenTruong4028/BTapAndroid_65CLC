@@ -2,9 +2,9 @@
 ## 📜BTapAndroid_65CLC
 Đây là nơi mình sẽ lưu bài tập, bài thực hành trong quá trình học môn lập trình di động.
 ## 🟡 1. [Hello Android](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/HelloAndroid)
-- Đây là demo đầu tiên khởi đầu cho học phần lập trình di động chỉ hiện mỗi chữ "Hello Androi"
+- Đây là bản demo đầu tiên cho học phần lập trình di động. Bản demo chỉ hiện mỗi chữ "Hello Android"
 ## 🟡 2. [ViDuLayout1](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/ViDuLayout1)
-- Đây là bài tập giúp tập làm quen với 'constraintlayout'
+- Đây là bài tập giúp tập làm quen với 'constraintlayout'.
 ## 🟡 3. [LoginScreenFigma](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/LoginScreenFigma)
 - Đây là bài tập thiết kế giao diện Sign Up theo yêu cầu, dựa trên [Figma](https://www.figma.com/design/C1QQx0QZnwo92jn8tlk49B/Untitled?node-id=0-1&p=f&t=n78BPuQvFeY7WUXO-0)
 - Giao diện gốc và giao diện đã làm:
