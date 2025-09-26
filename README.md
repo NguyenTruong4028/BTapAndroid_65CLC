@@ -6,7 +6,7 @@
 ## 🟡 2. [ViDuLayout1](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/ViDuLayout1)
 - Đây là bài tập giúp tập làm quen với 'constraintlayout'
 ## 🟡 3. [LoginScreenFigma](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/LoginScreenFigma)
-- Đây là bài tập giúp thiết kế giao diện Sign Up theo yêu cầu, dựa trên [Figma](https://www.figma.com/design/C1QQx0QZnwo92jn8tlk49B/Untitled?node-id=0-1&p=f&t=n78BPuQvFeY7WUXO-0)
+- Đây là bài tập thiết kế giao diện Sign Up theo yêu cầu, dựa trên [Figma](https://www.figma.com/design/C1QQx0QZnwo92jn8tlk49B/Untitled?node-id=0-1&p=f&t=n78BPuQvFeY7WUXO-0)
 - Giao diện gốc và giao diện đã làm:
 
 | Gốc | Đã làm |
