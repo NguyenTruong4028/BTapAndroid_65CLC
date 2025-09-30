@@ -21,3 +21,9 @@
 |---|------|
 | <img src="./img/aboutme/Frame 7.png" width="150"/> | <img src="./img/aboutme/Ảnh chụp màn hình 2025-09-26 200001.png" width="150"/> |
 
+## 🟡 5. [lamthemWeather](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/AboutMe)
+- Đây là bài tập thiết kế giao diện về dự báo thời tiết [Figma](https://www.figma.com/design/C1QQx0QZnwo92jn8tlk49B/Untitled?node-id=0-1&p=f&t=n78BPuQvFeY7WUXO-0)4
+
+<img src="./img/weather/weather.png" width="150"/>
+
+
