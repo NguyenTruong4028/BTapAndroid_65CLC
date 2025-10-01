@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-
+    android:id="@+id/main"
     >
     <TextView
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
         android:textSize="30dp"
         android:gravity="center"
         tools:ignore="RtlCompat"
-        android:background="#ff00ff"
+        android:background="#A2817A39"
         android:textColor="@color/white"/>
     <LinearLayout
 

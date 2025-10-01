@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.ViduLayout2" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-         <item0 name="colorPrimary">#FF0000aa</item0>
+         <item0 name="colorPrimary">#3737C1</item0>
     </style>
 
     <style name="Theme.ViduLayout2" parent="Base.Theme.ViduLayout2" />
