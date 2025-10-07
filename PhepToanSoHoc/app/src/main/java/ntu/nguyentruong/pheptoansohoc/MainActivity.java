@@ -16,9 +16,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
     TextView tvKq;
     EditText edtSo1, edtSo2;
-    Button btnCong, btnTru, btnNhan, btnChia;
 
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

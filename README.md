@@ -25,5 +25,6 @@
 - Đây là bài tập nhỏ mình làm thêm về thiết kế giao diện dự báo thời tiết [Figma](https://www.figma.com/design/C1QQx0QZnwo92jn8tlk49B/Untitled?node-id=0-1&p=f&t=n78BPuQvFeY7WUXO-0)
 
 <img src="./img/weather/weather.png" width="150"/>
+## 🟡 6. 
 
 
