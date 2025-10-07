@@ -29,7 +29,7 @@
 ## 🟡 6. [ViduLayout2](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/ViduLayout2)
 - Ví dụ này là hướng dẫn cách dùng linear layout cũng như là thiết lập giao diện bằng code.
 
-<img src="./img/vidulayou2/vdly2.png" width="150/>
+<img src="./img/vidulayou2/vdly2.png" width="150"/>
 
 ## 🟡 7. [Cộng 2 số](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/TinhTong2So)
 - Ứng dụng tính toán cộng 2 số cơ bản.
