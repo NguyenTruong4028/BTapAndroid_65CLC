@@ -29,19 +29,19 @@
 ## 🟡 6. [ViduLayout2](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/ViduLayout2)
 - Ví dụ này là hướng dẫn cách dùng linear layout cũng như là thiết lập giao diện bằng code.
 
-<img src="./img/vidulayou2/vdly2.png" width="150>
+<img src="./img/vidulayou2/vdly2.png" width="150/>
 
 ## 🟡 7. [Cộng 2 số](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/TinhTong2So)
 - Ứng dụng tính toán cộng 2 số cơ bản.
 
-<img src="./img/cong2so/tinhTong2So.png" width="150>
+<img src="./img/cong2so/tinhTong2So.png" width="150/>
 
 ## 🟡 8. [Phép toán](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/PhepToanSoHoc)
 - Ứng dụng tính toán các phép tính cộng trừ nhân chia cơ bản.
 
 |Chức năng|Giao diện|Cộng|Trừ|Nhân|Chia|
 |---------|---------|----|---|----|----|
-|Minh họa|<img src="./img/pheptoan/giaoDienTinh.png" width="150>|<img src="./img/pheptoan/cong.png" width="150>|<img src="./img/pheptoan/tru.png" width="150>|<img src="./img/pheptoan/nhan.png" width="150>|<img src="./img/pheptoan/chia.png" width="150>|
+|Minh họa|<img src="./img/pheptoan/giaoDienTinh.png" width="150/>|<img src="./img/pheptoan/cong.png" width="150/>|<img src="./img/pheptoan/tru.png" width="150/>|<img src="./img/pheptoan/nhan.png" width="150/>|<img src="./img/pheptoan/chia.png" width="150/>|
 
 ## 🟡 9. [lamthem Trắc Nghiệm Tính Cộng 2 Số](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/mainlamthemTNPhepToanCong)
 - Ứng dụng sinh câu hỏi trắc nghiệm tính cộng cơ bản. Bao gồm các tính năng sau:
@@ -51,6 +51,6 @@
 
 |Chức năng|Giao diện|Đáp án đúng|Đáp án sai|Hết thời gian|
 |---------|---------|----|---|----|
-|Minh họa|<img src="./img/lamthemTN/giaodienapp.png" width="150>|<img src="./img/lamthemTN/dadung.png" width="150>|<img src="./img/lamthemTN/dasai.png" width="150>|<img src="./img/lamthemTN/timeover.png" width="150>|
+|Minh họa|<img src="./img/lamthemTN/giaodienapp.png" width="150/>|<img src="./img/lamthemTN/dadung.png" width="150/>|<img src="./img/lamthemTN/dasai.png" width="150/>|<img src="./img/lamthemTN/timeover.png" width="150/>|
 
 
