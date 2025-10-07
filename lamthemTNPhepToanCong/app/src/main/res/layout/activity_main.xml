@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9EEEFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_gradient"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_quiz"
+            android:backgroundTint="#4572C4"
+            android:fontFamily="tahoma"
+            android:gravity="center"
+            android:text="QUIZ APP"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+        <!-- Bộ đếm thời gian -->
+        <TextView
+            android:id="@+id/tvTimer"
+            android:text="00:10"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:text="33 + 66"
+            android:textSize="75dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="457dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:background="@drawable/bg_ans">
+
+            <TextView
+                android:id="@+id/tvCoin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="+ 0"
+                android:textColor="#FFD700"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="323dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/btn1"
+                        style="@style/QuizButton"
+                        android:text="89"
+                        android:textSize="50dp" />
+
+                    <Button
+                        android:id="@+id/btn2"
+                        style="@style/QuizButton"
+                        android:text="94"
+                        android:textSize="50dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn3"
+                        style="@style/QuizButton"
+                        android:text="99"
+                        android:textSize="50dp" />
+
+                    <Button
+                        android:id="@+id/btn4"
+                        style="@style/QuizButton"
+                        android:text="100"
+                        android:textSize="50dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

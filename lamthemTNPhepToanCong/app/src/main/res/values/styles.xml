@@ -1,0 +1,17 @@
+<resources>
+    <style name="QuizButton">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:background">@drawable/btn_normal</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:elevation">6dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    <style name="MyButtonStyle" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/btn_normal</item>
+    </style>
+
+</resources>
