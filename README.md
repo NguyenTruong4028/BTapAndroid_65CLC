@@ -57,6 +57,8 @@
 - Ứng dụng chuyển đổi tiền tệ cơ bản từ USD -> VND. Chưa call API
 - [Những kiến thức đã học được từ ứng dụng này!](./ChuyenDoiNgoaiTe/kienthuchocduoc.md)
 
+[![àdsfdsfsfas]()](./img/TienTe/TienTe.mp4)
+
 <video width="640" height="480" controls>
   <source src="./img/TienTe/TienTe.mp4" type="video/mp4">
   Trình duyệt của bạn không hỗ trợ thẻ video.
