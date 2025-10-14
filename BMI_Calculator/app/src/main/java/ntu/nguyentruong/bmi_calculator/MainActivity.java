@@ -17,8 +17,6 @@ import java.text.DecimalFormat;
 import ntu.nguyentruong.bmi_calculator.R;
 
 public class MainActivity extends AppCompatActivity {
-
-    // Khai báo các thành phần giao diện
     private EditText editTextWeight, editTextHeight;
     private RadioGroup radioGroupStandard;
     private RadioButton radioButtonAsian;
@@ -30,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Ánh xạ các thành phần giao diện từ file XML
         editTextWeight = findViewById(R.id.editTextWeight);
         editTextHeight = findViewById(R.id.editTextHeight);
         radioGroupStandard = findViewById(R.id.radioGroupStandard);
@@ -39,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         textViewResult = findViewById(R.id.textViewResult);
         textViewClassification = findViewById(R.id.textViewClassification);
 
-        // Thiết lập sự kiện click cho nút "TÍNH TOÁN"
         buttonCalculate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -53,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         String weightStr = editTextWeight.getText().toString();
         String heightStr = editTextHeight.getText().toString();
 
-        // Kiểm tra xem người dùng đã nhập đủ thông tin chưa
+        // Kiểm tra xem người dùng đã nhập đủ thông tin chưa?
         if (weightStr.isEmpty()) {
             editTextWeight.setError("Vui lòng nhập cân nặng");
             editTextWeight.requestFocus();

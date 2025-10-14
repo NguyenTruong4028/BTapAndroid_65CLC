@@ -13,7 +13,7 @@ import android.widget.Toast;
 import ntu.nguyentruong.chuyendoingoaite.R;
 
 public class MainActivity extends AppCompatActivity {
-    EditText etFrom;
+    EditText edtFrom;
     TextView tvResult;
     Button btnConvert;
     final double USD_TO_VND = 26000.0;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        etFrom = findViewById(R.id.etFrom);
+        edtFrom = findViewById(R.id.etFrom);
         tvResult  = findViewById(R.id.tvKq);
         btnConvert = findViewById(R.id.btnConvert);
         btnConvert.setOnClickListener(new View.OnClickListener() {
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void convertCurrency(){
-        String usdStr = etFrom.getText().toString().trim();
+        String usdStr = edtFrom.getText().toString().trim();
         if(usdStr.isEmpty()){
             Toast.makeText(MainActivity.this,"Vui lòng nhập số tiền muốn chuyển đổi!",Toast.LENGTH_LONG).show();
             return;

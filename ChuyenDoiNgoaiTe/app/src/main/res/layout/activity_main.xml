@@ -108,7 +108,6 @@
         android:layout_marginTop="590dp"
         android:background="@drawable/btn"
         android:elevation="30dp"
-        android:stateListAnimator="@null"
         android:text="CONVERT"
         android:textAllCaps="true"
         android:textColor="@android:color/white" />

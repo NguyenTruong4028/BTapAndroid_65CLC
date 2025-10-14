@@ -53,4 +53,11 @@
 |---------|---------|----|---|----|
 |Minh họa|<img src="./img/lamthemTN/giaodienapp.png" width="150"/>|<img src="./img/lamthemTN/dadung.png" width="150"/>|<img src="./img/lamthemTN/dasai.png" width="150"/>|<img src="./img/lamthemTN/timeover.png" width="150"/>|
 
+## 🟡 10. [Chuyển đổi ngoại tệ USD -> VND](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/ChuyenDoiNgoaiTe)
+- Ứng dụng chuyển đổi tiền tệ cơ bản từ USD -> VND. Chưa call API
+- [Những kiến thức đã học được từ ứng dụng này!](./ChuyenDoiNgoaiTe/kienthuchocduoc.md)
+
+[Video demo dự án](./img/TienTe/TienTe.webm)
+
+
 
