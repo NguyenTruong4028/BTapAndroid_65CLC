@@ -57,16 +57,13 @@
 - Ứng dụng chuyển đổi tiền tệ cơ bản từ USD -> VND. Chưa call API
 - [Những kiến thức đã học được từ ứng dụng này!](./ChuyenDoiNgoaiTe/kienthuchocduoc.md)
 
-[![Video]()](https://github.com/user-attachments/assets/38692cb9-d758-4015-8cfd-d2f68e7b0ec7)
+[![Video]()](https://github.com/user-attachments/assets/f588a222-fa1e-4b7c-a47b-6cd99a3e4c6b)
 
 ## 🟡 11. [BMI Calculator](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/BMI_Calculator)
 - Ứng dụng tính BMI và in ra kết quả theo tiêu chuẩn người Châu Á và tiêu chuẩn WHO.
 - [Những kiến thức đã học được từ ứng dụng này!](./BMI_Calculator/kienthuchocduoc.md)
 
-<video width="640" height="480" controls>
-  <source src="./img/bmi/bmi.mp4" type="video/mp4">
-  Trình duyệt của bạn không hỗ trợ thẻ video.
-</video>
+[](https://github.com/user-attachments/assets/38692cb9-d758-4015-8cfd-d2f68e7b0ec7)
 
 
 
