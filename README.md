@@ -58,6 +58,16 @@
 - [Những kiến thức đã học được từ ứng dụng này!](./ChuyenDoiNgoaiTe/kienthuchocduoc.md)
 
 <video width="640" height="480" controls>
+  <source src="./img/TienTe/TienTe.webm" type="video/webm">
+  Trình duyệt của bạn không hỗ trợ thẻ video.
+</video>
+
+
+## 🟡 10. [BMI Calculator](https://github.com/NguyenTruong4028/BTapAndroid_65CLC/tree/main/BMI_Calculator)
+- Ứng dụng tính BMI và in ra kết quả theo tiêu chuẩn người Châu Á và tiêu chuẩn WHO.
+- [Những kiến thức đã học được từ ứng dụng này!](./BMI_Calculator/kienthuchocduoc.md)
+
+<video width="640" height="480" controls>
   <source src="./img/TienTe/TienTe.webm" type="video/mp4">
   Trình duyệt của bạn không hỗ trợ thẻ video.
 </video>
