@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/bg"
+        android:backgroundTint="#7095F6"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_margin="24dp"
+        android:layout_gravity="center"
+        app:cardElevation="12dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Chuyển đổi ngoại tệ"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#03A9F4"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#592196F3"
+                />
+            <!-- Ô 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="50dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="23dp"
+                    android:background="@mipmap/us"/>
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:text="USD"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+
+                <EditText
+                    android:id="@+id/etFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:hint="Amount"
+                    android:textSize="20dp"
+                    android:inputType="numberDecimal"/>
+            </LinearLayout>
+
+            <!-- Ô 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="23dp"
+                    android:background="@mipmap/vn"/>
+
+                <TextView
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    android:text="VND"
+                    android:textSize="20dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:id="@+id/tvKq"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:textSize="20dp"
+                    android:hint="Converted"
+                    android:gravity="bottom"
+                    android:background="#47A09797"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Button nằm sau CardView để nó đè lên -->
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="180dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="590dp"
+        android:background="@drawable/btn"
+        android:elevation="30dp"
+        android:stateListAnimator="@null"
+        android:text="CONVERT"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ChuyenDoiNgoaiTe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+<item name="colorPrimary">#4B75F6</item>
+    </style>
+
+    <style name="Theme.ChuyenDoiNgoaiTe" parent="Base.Theme.ChuyenDoiNgoaiTe" />
+</resources>
