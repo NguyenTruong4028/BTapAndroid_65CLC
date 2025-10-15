@@ -63,7 +63,7 @@
 - Ứng dụng tính BMI và in ra kết quả theo tiêu chuẩn người Châu Á và tiêu chuẩn WHO.
 - [Những kiến thức đã học được từ ứng dụng này!](./BMI_Calculator/kienthuchocduoc.md)
 
-[](https://github.com/user-attachments/assets/38692cb9-d758-4015-8cfd-d2f68e7b0ec7)
+[![Video]()](https://github.com/user-attachments/assets/38692cb9-d758-4015-8cfd-d2f68e7b0ec7)
 
 
 
