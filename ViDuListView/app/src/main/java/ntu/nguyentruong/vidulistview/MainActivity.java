@@ -13,12 +13,16 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     ListView lvHocPhan;
     //(1)Chuẩn bị nguồn dữ liệu hiển thị
-    ArrayList<String> lstHP;
     //(2) Tạo Adapter
     ArrayAdapter<String> adapterHP;
     void TimDK(){
@@ -29,11 +33,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TimDK();
-        //Lấy dữ liệu đưa vào listHP từ file, database, internet
-        lstHP = new ArrayList<>();
-        lstHP = getData();
+        // (1) Đọc nội dung file JSON
+        String jsonString = Utils.getJsonFromAsset(this,"subjects.json");
+        // (2) Dùng Gson để chuyển JSON thành String
+        Gson gson = new Gson();
+        Type listUserType = new TypeToken<List<String>>(){}.getType();
+        List<String> subjects = gson.fromJson(jsonString,listUserType);
         //(3) Gắn Adapter
-        adapterHP = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,lstHP);
+        adapterHP = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,subjects);
         lvHocPhan.setAdapter(adapterHP);
         //(4) Xử lý sự kiện
         lvHocPhan.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -43,22 +50,12 @@ public class MainActivity extends AppCompatActivity {
                 //Cách 1: lấy gián tiep từ adapter
                 String value = adapterHP.getItem(position).toString();
                 //Cách 2: Lấy trực tiếp tù nguồn dữ liệu
-                String value2 = lstHP.get(position);
+                String value2 = subjects.get(position);
                 String thongBao = "Bạn đang chọn môn: " + value;
                 Toast.makeText(MainActivity.this,thongBao,Toast.LENGTH_LONG).show();
             }
         });
-    }
-    ArrayList<String> getData(){
-        //Code đọc dữ liệu và cất vào bien tam, trước khi return cho lsHP
-        ArrayList<String> dsTam = new ArrayList<String>();
-        //Bài này ta fake dữ liệu
-        dsTam.add("Lập trình di động");
-        dsTam.add("Mẫu thiết kế");
-        dsTam.add("Thiết kế web 1");
-        dsTam.add("Quản lý dự án");
-        dsTam.add("Lập trình Python");
 
-        return dsTam;
     }
+
 }
