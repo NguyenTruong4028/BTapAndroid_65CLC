@@ -18,9 +18,9 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     ListView lvHocPhan;
     //(1)Chuẩn bị nguồn dữ liệu hiển thị
-    ArrayList<String> lstHP = new ArrayList<>();
+    ArrayList<String> lstHP;
     //(2) Tạo Adapter
-    ArrayAdapter<String> adapterHP = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,lstHP);
+    ArrayAdapter<String> adapterHP;
     void TimDK(){
         lvHocPhan = findViewById(R.id.lvhocPhan);
     }
@@ -30,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TimDK();
         //Lấy dữ liệu đưa vào listHP từ file, database, internet
+        lstHP = new ArrayList<>();
         lstHP = getData();
         //(3) Gắn Adapter
+        adapterHP = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,lstHP);
         lvHocPhan.setAdapter(adapterHP);
         //(4) Xử lý sự kiện
         lvHocPhan.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -56,18 +58,7 @@ public class MainActivity extends AppCompatActivity {
         dsTam.add("Thiết kế web 1");
         dsTam.add("Quản lý dự án");
         dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
-        dsTam.add("Lập trình Python");
+
         return dsTam;
     }
 }
