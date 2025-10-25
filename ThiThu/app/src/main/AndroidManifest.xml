@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ThiThu">
         <activity
+            android:name=".ActivityLamThem"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAboutMe"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCN4"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCN3"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityCN2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
