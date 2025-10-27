@@ -27,10 +27,10 @@ public class MainActivity extends AppCompatActivity {
         //4
         recyclerViewLands = findViewById(R.id.recyclerLand);
         //5
-//        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
-//        recyclerViewLands.setLayoutManager(layoutLinear);
-        RecyclerView.LayoutManager layoutLinearHorizontial = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
-        recyclerViewLands.setLayoutManager(layoutLinearHorizontial);
+        RecyclerView.LayoutManager layoutLinear = new LinearLayoutManager(this);
+        recyclerViewLands.setLayoutManager(layoutLinear);
+//        RecyclerView.LayoutManager layoutLinearHorizontial = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false);
+//        recyclerViewLands.setLayoutManager(layoutLinearHorizontial);
 //        RecyclerView.LayoutManager layoutGrid = new GridLayoutManager(this,2);
 //        recyclerViewLands.setLayoutManager(layoutGrid);
 
