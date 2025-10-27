@@ -42,10 +42,8 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        app:hintTextColor="#000000"
         app:startIconDrawable="@drawable/calculator"
         app:boxBackgroundColor="#fff"
-        android:hint="Điểm giữa kỳ"
         style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edtDGK"
@@ -54,6 +52,8 @@
             android:paddingStart="50dp"
             android:drawablePadding="12dp"
             android:inputType="number"
+            android:hint="Điểm giữa kỳ"
+            app:hintTextColor="#000000"
             />
     </com.google.android.material.textfield.TextInputLayout>
     <TextView
@@ -69,10 +69,8 @@
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_gravity="center"
-        app:hintTextColor="#000000"
         app:boxBackgroundColor="#fff"
         app:startIconDrawable="@drawable/calculator"
-        android:hint="Điểm cuối kỳ"
         style="@style/ThemeOverlay.Material3.TextInputEditText.OutlinedBox">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/edtDCK"
@@ -81,6 +79,8 @@
             android:paddingStart="50dp"
             android:drawablePadding="12dp"
             android:inputType="number"
+            app:hintTextColor="#000000"
+            android:hint="Điểm cuối kỳ"
             />
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.button.MaterialButton
