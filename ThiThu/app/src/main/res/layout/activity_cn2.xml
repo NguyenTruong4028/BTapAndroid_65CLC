@@ -12,27 +12,12 @@
         android:layout_height="200dp"
         android:background="@drawable/banner"
         >
-        <LinearLayout
-            android:layout_width="100dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@mipmap/logontu"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="10dp"/>
-
-            <ImageButton
-                android:id="@+id/btnBack"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_margin="16dp"
-                android:translationY="25dp"
-                android:background="@drawable/bach_button_bg"
-                android:elevation="8dp"
-                android:src="@drawable/ic_back" />
-        </LinearLayout>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@mipmap/logontu"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,4 +121,13 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:textSize="20dp"/>
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bach_button_bg"
+        android:elevation="8dp"
+        android:src="@drawable/ic_back" />
 </LinearLayout>

@@ -30,6 +30,7 @@
                    app:strokeWidth="1dp"
                    >
                    <TextView
+                       android:id="@+id/tvHD"
                        android:layout_width="match_parent"
                        android:layout_height="match_parent"
                        tools:text= "Tiêu đề hoạt động 1"
@@ -47,6 +48,7 @@
                    app:cardCornerRadius="0dp"
                    >
                    <TextView
+                       android:id="@+id/tvTime"
                        android:layout_width="match_parent"
                        android:layout_height="match_parent"
                        tools:text= "Thời gian"
@@ -58,6 +60,7 @@
                </com.google.android.material.card.MaterialCardView>
            </LinearLayout>
         <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivAnh"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@mipmap/banner"
