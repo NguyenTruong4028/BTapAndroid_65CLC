@@ -39,8 +39,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCN2"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Chức năng 1"
+                android:layout_height="80dp"
+                android:text="Tính ĐTB"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/black"
                 app:strokeWidth="1dp"
@@ -48,13 +48,13 @@
                 android:backgroundTint="#CCE5FF"
                 android:textColor="@color/black"
                 android:textSize="25sp"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="10dp"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCN3"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Chức năng 2"
+                android:layout_height="80dp"
+                android:text="DS Môn"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/black"
                 app:strokeWidth="1dp"
@@ -66,8 +66,8 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCN4"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:text="Chức năng 3"
+                android:layout_height="80dp"
+                android:text="DS HD"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/black"
                 app:strokeWidth="1dp"
@@ -79,8 +79,21 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnAbout"
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="80dp"
                 android:text="About Me"
+                app:cornerRadius="20dp"
+                app:strokeColor="@color/black"
+                app:strokeWidth="1dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#CCE5FF"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnLamthem"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Làm thêm"
                 app:cornerRadius="20dp"
                 app:strokeColor="@color/black"
                 app:strokeWidth="1dp"

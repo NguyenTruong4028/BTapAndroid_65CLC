@@ -5,17 +5,17 @@
     android:layout_height="match_parent"
     android:background="#F0F8FF">
 
+    <!-- Nội dung có thể cuộn -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="64dp"
+        android:paddingTop="40dp"
         android:clipToPadding="false">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="24dp"
             android:paddingBottom="32dp">
 
             <!-- Header Card -->
@@ -24,8 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="4dp"
-                >
+                app:cardElevation="4dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -62,7 +61,6 @@
                         android:text="Android Developer"
                         android:textColor="#E0F2FF"
                         android:textSize="16sp" />
-
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
@@ -310,15 +308,16 @@
         </LinearLayout>
     </ScrollView>
 
-    <!-- Nút Back nổi trên cùng -->
+    <!-- 🔹 Nút back nổi cố định góc dưới bên phải -->
     <ImageButton
         android:id="@+id/btnBack"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_margin="16dp"
         android:background="@drawable/bach_button_bg"
         android:src="@drawable/ic_back"
         android:contentDescription="Quay lại"
-        android:elevation="8dp" />
-
+        android:elevation="12dp" />
 </RelativeLayout>
