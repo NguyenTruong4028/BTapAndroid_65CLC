@@ -19,7 +19,8 @@
            <LinearLayout
                android:orientation="vertical"
                android:layout_width="250dp"
-               android:layout_height="match_parent">
+               android:layout_height="match_parent"
+               >
                <com.google.android.material.card.MaterialCardView
                    android:layout_width="match_parent"
                    android:layout_height="65dp"
@@ -31,9 +32,11 @@
                    <TextView
                        android:layout_width="match_parent"
                        android:layout_height="match_parent"
-                       tools:text= "Hiện thông báo đậu rớt"
+                       tools:text= "Tiêu đề hoạt động 1"
+                       android:textStyle="bold"
                        android:gravity="center"
                        android:textSize="20dp"
+                       android:background="#51AEE4"
                        />
                </com.google.android.material.card.MaterialCardView>
                <com.google.android.material.card.MaterialCardView
@@ -46,18 +49,21 @@
                    <TextView
                        android:layout_width="match_parent"
                        android:layout_height="match_parent"
-                       tools:text= "Hiện thông báo đậu rớt"
-                       android:gravity="center"
+                       tools:text= "Thời gian"
+                       android:textStyle="italic"
+                       android:gravity="center|left"
                        android:textSize="20dp"
+                       android:background="#77C3EB"
                        />
                </com.google.android.material.card.MaterialCardView>
            </LinearLayout>
-           <ImageView
-               android:layout_width="match_parent"
-               android:layout_height="match_parent"
-               android:src="@mipmap/banner"
-               android:scaleType="fitXY"
-               android:padding="5dp"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/banner"
+            android:scaleType="fitXY"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/black"/>
        </LinearLayout>
    </com.google.android.material.card.MaterialCardView>
 </LinearLayout>

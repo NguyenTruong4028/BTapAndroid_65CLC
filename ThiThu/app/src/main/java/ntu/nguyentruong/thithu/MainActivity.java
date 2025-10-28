@@ -11,20 +11,36 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.google.android.material.button.MaterialButton;
+
 public class MainActivity extends AppCompatActivity {
-    Button btnAbout;
+    Button btnAbout, btnCN2, btnCN3, btnCN4;
+    void TimDK(){
+        btnAbout = findViewById(R.id.btnAbout);
+        btnCN2 = findViewById(R.id.btnCN2);
+        btnCN3 = findViewById(R.id.btnCN3);
+        btnCN4 = findViewById(R.id.btnCN4);
+    }
+    void SuKien(){
+        btnAbout.setOnClickListener(v ->  {
+           startActivity(new Intent(MainActivity.this,ActivityAboutMe.class));
+        });
+        btnCN2.setOnClickListener(v ->  {
+            startActivity(new Intent(MainActivity.this,ActivityCN2.class));
+        });
+        btnCN3.setOnClickListener(v ->  {
+            startActivity(new Intent(MainActivity.this,ActivityCN3.class));
+        });
+        btnCN4.setOnClickListener(v ->  {
+            startActivity(new Intent(MainActivity.this,ActivityCN4.class));
+        });
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnAbout = findViewById(R.id.btnAbout);
-        btnAbout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,ActivityAboutMe.class);
-                startActivity(intent);
-
-            }
-        });
+        EdgeToEdge.enable(this);
+        TimDK();
+        SuKien();
     }
 }
