@@ -12,7 +12,7 @@
     <ImageView
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@mipmap/bac"
+        android:background="@mipmap/bacsi"
         android:translationY="-150dp"
         android:layout_gravity="center"/>
 
@@ -26,8 +26,7 @@
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:layout_marginHorizontal="20dp"
-            android:background="@mipmap/banner"
-            android:scaleType="fitXY"
+            android:background="@mipmap/bannerb"
             />
 
         <LinearLayout
