@@ -3,12 +3,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FF9800"
+    android:background="#673AB7"
     android:gravity="center">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="FRAGMENT ONE"
+        android:text="FRAGMENT TWO"
         android:gravity="center"
         android:textColor="@color/white"
         android:textSize="30sp"
