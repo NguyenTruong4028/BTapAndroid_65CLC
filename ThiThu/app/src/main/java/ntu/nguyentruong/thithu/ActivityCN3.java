@@ -106,8 +106,7 @@ class MonHocAdapter extends RecyclerView.Adapter<MonHocAdapter.ItemDSMon> {
         public void onClick(View v) {
             int positionClicked = getAbsoluteAdapterPosition();
             MonHoc itemChosen = dsMon.get(positionClicked);
-            String name = itemChosen.getMonHoc();
-            String tbao = "Bạn vừa click vào: " + name;
+            String name = itemChosen.getMonHoc();String tbao = "Bạn vừa click vào: " + name;
             Toast.makeText(v.getContext(),tbao,Toast.LENGTH_LONG).show();
 
         }

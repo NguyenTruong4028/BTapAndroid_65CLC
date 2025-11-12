@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ThiThu">
         <activity
+            android:name=".Activity_Item3"
+            android:exported="false" />
+        <activity
+            android:name=".Item_4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Item_3_Activity"
+            android:exported="false" />
+        <activity
             android:name=".ActivityLamThem"
             android:exported="false" />
         <activity
