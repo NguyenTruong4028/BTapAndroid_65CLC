@@ -11,14 +11,14 @@
 
     <FrameLayout
         android:id="@+id/frmContent"
-        android:name="androidx.fragment.app.FragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="652dp" />
+        android:layout_height="752dp">
+
+    </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frmFooter"
-        android:name="ntu.nguyentruong.fragmentexadddynamic.FooterFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
+        android:layout_height="match_parent">
+    </FrameLayout>
 </LinearLayout>
