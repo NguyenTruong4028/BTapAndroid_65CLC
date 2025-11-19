@@ -22,24 +22,22 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //getBookData();
+        ArrayList<String> lsName = getNameBook();
+        // Set data to listview
+        ListView listView = findViewById(R.id.lvNameB);
+        ArrayAdapter<String> adapterNameBook = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,lsName);
+        listView.setAdapter(adapterNameBook);
+    }
+    ArrayList<Book> getBookData(){
         // Create CSDL
         db = openOrCreateDatabase("books",MODE_PRIVATE,null);
-        // Create table
-//        String sqlXoaBang = "DROP TABLE IF EXISTS BOOKS";
-//        String sqlTaoBang = "CREATE TABLE BOOKS(BookID integer PRIMARY KEY, BookName text, Page integer, Price Float, Description text)";
-//
-//        db.execSQL(sqlXoaBang);
-//        db.execSQL(sqlTaoBang);
-//
-//        // Add data
-//        String sqlThem1 = "INSERT INTO BOOKS VALUES(1,'Toán',100,9.9,'sách về toán')";
-//        db.execSQL(sqlThem1);
-        // Test
-
-        // Truy van DL
+        // Truy van
         String sqlSelectAll = "SELECT * FROM BOOKS";
         Cursor resultSet = db.rawQuery(sqlSelectAll,null);
-        ArrayList<String> lsName = new ArrayList<>();
+        ArrayList<Book> lsBook = new ArrayList<Book>();
+
         resultSet.moveToFirst();
         while (true){
             // Get data
@@ -51,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
             // Package object ==> create module class
             Book book = new Book(idBook,nameBook,page,price,description);
             // Add to list
-            lsName.add(nameBook);
+            lsBook.add(book);
             // Move to next
             resultSet.moveToNext();
             if (resultSet.isAfterLast()){
@@ -59,9 +57,30 @@ public class MainActivity extends AppCompatActivity {
             }
         }
         db.close();
-        // Set data to listview
-        ListView listView = findViewById(R.id.lvNameB);
-        ArrayAdapter<String> adapterNameBook = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,lsName);
-        listView.setAdapter(adapterNameBook);
+        return lsBook;
     }
+    ArrayList<String> getNameBook(){
+        // Create CSDL
+        db = openOrCreateDatabase("books",MODE_PRIVATE,null);
+        // Truy van
+        String sqlSelectAll = "SELECT * FROM BOOKS";
+        Cursor resultSet = db.rawQuery(sqlSelectAll,null);
+        ArrayList<String> lsNameBook = new ArrayList<>();
+
+        resultSet.moveToFirst();
+        while (true){
+            // Get data
+            String nameBook = resultSet.getString(1);
+            // Add to list
+            lsNameBook.add(nameBook);
+            // Move to next
+            resultSet.moveToNext();
+            if (resultSet.isAfterLast()){
+                break;
+            }
+        }
+        db.close();
+        return lsNameBook;
+    }
+
 }
