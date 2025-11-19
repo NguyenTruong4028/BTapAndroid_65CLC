@@ -1,9 +1,13 @@
 package ntu.nguyentruong.vdlamviecsqlite;
 
+import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
@@ -22,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button bThem = findViewById(R.id.btnThem);
 
         //getBookData();
         ArrayList<String> lsName = getNameBook();
@@ -29,6 +34,25 @@ public class MainActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.lvNameB);
         ArrayAdapter<String> adapterNameBook = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,lsName);
         listView.setAdapter(adapterNameBook);
+        bThem.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                EditText edtName = findViewById(R.id.edtName);
+                String nameBook = edtName.getText().toString();
+                EditText edtPrice = findViewById(R.id.edtPrice);
+                float priceBook = Float.parseFloat(edtPrice.getText().toString());
+                // ADD DB
+                ContentValues row = new ContentValues();
+                row.put("BookName",nameBook);
+                row.put("Price",priceBook);
+                db = openOrCreateDatabase("books",MODE_PRIVATE,null);
+                db.insert("BOOKS",null,row);
+                db.close();
+                lsName.add(nameBook);
+                adapterNameBook.notifyDataSetChanged();
+            }
+        });
+
     }
     ArrayList<Book> getBookData(){
         // Create CSDL

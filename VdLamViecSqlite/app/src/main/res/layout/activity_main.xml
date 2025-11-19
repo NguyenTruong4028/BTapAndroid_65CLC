@@ -3,10 +3,58 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="100dp"
+                android:text="Tên sách:"
+                android:gravity="center|left"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_height="match_parent"
+                android:layout_width="100dp"
+                android:text="Gía sách:"
+                android:gravity="center|left"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/edtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_marginTop="20dp"
+            android:text="Thêm sách"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
     <ListView
         android:id="@+id/lvNameB"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
     </ListView>
 </LinearLayout>
