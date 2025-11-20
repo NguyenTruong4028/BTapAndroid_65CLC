@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1049052069576",
+    "firebase_url": "https://android-projects-3aceb-default-rtdb.firebaseio.com",
+    "project_id": "android-projects-3aceb",
+    "storage_bucket": "android-projects-3aceb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049052069576:android:c03553db70439f2d9e6ffd",
+        "android_client_info": {
+          "package_name": "ntu.nguyentruong.quanlichitieu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQDMz_AIIMJe7HfUwCRR37bIwtrzYZkGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
