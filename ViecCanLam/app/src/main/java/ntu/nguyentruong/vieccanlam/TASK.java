@@ -1,5 +1,7 @@
 package ntu.nguyentruong.vieccanlam;
 
+import java.util.HashMap;
+
 public class TASK {
     String name, message, date, priority;
 
@@ -43,5 +45,13 @@ public class TASK {
 
     public void setPriority(String priority) {
         this.priority = priority;
+    }
+    public HashMap<String,String> toFireBaseObject(){
+        HashMap<String,String> taskObject = new HashMap<String,String>();
+        taskObject.put("name",name);
+        taskObject.put("date",date);
+        taskObject.put("message",message);
+        taskObject.put("priority",priority);
+        return taskObject;
     }
 }

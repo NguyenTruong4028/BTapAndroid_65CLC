@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".ThemTaskActivity"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Thêm công việc"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Name: "
+                android:textSize="25sp"
+                android:gravity="center|left" />
+            <EditText
+                android:id="@+id/edtName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Name"
+                android:textSize="25sp"
+                android:gravity="center|left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Message: "
+                android:textSize="25sp"
+                android:gravity="center|left" />
+            <EditText
+                android:id="@+id/edtMessage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Message"
+                android:textSize="25sp"
+                android:gravity="center|left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Priority: "
+                android:textSize="25sp"
+                android:gravity="center|left" />
+            <EditText
+                android:id="@+id/edtPriority"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Priority"
+                android:textSize="25sp"
+                android:gravity="center|left" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="match_parent"
+                android:text="Date: "
+                android:textSize="25sp"
+                android:gravity="center|left" />
+            <EditText
+                android:id="@+id/edtDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Date"
+                android:textSize="25sp"
+                android:gravity="center|left" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+</FrameLayout>
