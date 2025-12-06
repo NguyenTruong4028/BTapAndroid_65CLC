@@ -17,7 +17,7 @@
     <style name="InputStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">50dp</item>
-        <item name="android:background">@drawable/bg_rounded_rectangle_37</item>
+        <item name="android:background">@drawable/bg_rounded_rectangle</item>
         <item name="android:paddingStart">20dp</item>
         <item name="android:paddingEnd">20dp</item>
         <item name="android:textSize">15sp</item>
