@@ -16,7 +16,8 @@
         android:src="@android:drawable/ic_menu_revert"
         app:elevation="2dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="Quay lại"/>
     <TextView
         android:id="@+id/tvHeaderTitle"
         android:layout_width="wrap_content"

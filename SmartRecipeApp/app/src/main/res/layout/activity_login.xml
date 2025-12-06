@@ -61,7 +61,6 @@
             android:layout_marginBottom="24dp"
             android:background="@drawable/bg_rounded_rectangle"
             android:fontFamily="@font/poppins_black"
-            android:gravity="center"
             android:hint="example@example.com"
             android:inputType="textEmailAddress"
             android:paddingStart="20dp"
