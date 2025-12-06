@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextStyle_63.840179443359375sp">
+        <item name="android:textSize">63.840179443359375sp</item>
+        <item name="android:textColor">#FFFFFDF9</item>
+        <item name="android:fontFamily">Poppins</item>
+    </style>
+
+</resources>
